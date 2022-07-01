@@ -30,6 +30,7 @@ public class BlockMod {
 
         event.getRegistry().register(GEL_ORE_BLOCK_ITEM);
 
+        event.getRegistry().register(RubberBlock.ITEM);
 
     }
 
@@ -40,6 +41,7 @@ public class BlockMod {
 
         event.getRegistry().register(GEL_ORE_BLOCK);
 
+        event.getRegistry().register(RubberBlock.INSTANCE);
 
     }
 }

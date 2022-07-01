@@ -6,5 +6,6 @@
   "item.examplemod.america_ore": "America Ore",
   "item.examplemod.teleportrod": "Teleport Rod",
   "item.examplemod.lightninghammer": "Lightning Hammer",
-  "block.examplemod.geloreblock": "Gel Ore Block"
+  "block.examplemod.geloreblock": "Gel Ore Block",
+  "block.examplemod.rubber": "Rubber Block"
 }
