@@ -10,5 +10,9 @@
   "block.examplemod.rubber": "Rubber Block",
   "block.examplemod.creepersurprise": "Creeper Surprise",
   "block.examplemod.creepingmold": "Creeping Mold Block",
-  "item.examplemod.gelpickaxe": "Gel Pickaxe"
+  "item.examplemod.gelpickaxe": "Gel Pickaxe",
+  "item.examplemod.customhelm": "Custom Helmet",
+  "item.examplemod.customchest": "Custom Chestplate",
+  "item.examplemod.customlegs": "Custom Leggings",
+  "item.examplemod.customboots": "Custom Boots"
 }

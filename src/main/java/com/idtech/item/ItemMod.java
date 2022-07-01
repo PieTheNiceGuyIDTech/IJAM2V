@@ -42,6 +42,10 @@ public class ItemMod {
         event.getRegistry().register(yummyFoodItem);
 
         // ARMOR
+        event.getRegistry().register(CustomArmorItem.HELM);
+        event.getRegistry().register(CustomArmorItem.CHEST);
+        event.getRegistry().register(CustomArmorItem.LEGS);
+        event.getRegistry().register(CustomArmorItem.BOOTS);
 
         //PROJECTILES
 
