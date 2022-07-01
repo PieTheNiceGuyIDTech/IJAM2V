@@ -18,5 +18,7 @@
   "item.examplemod.gelaxe": "Gel Axe",
   "item.examplemod.gelsword": "Gel Sword",
   "item.examplemod.gelhoe": "Gel Hoe",
-  "item.examplemod.gelshovel": "Gel Shovel"
+  "item.examplemod.gelshovel": "Gel Shovel",
+  "entity.examplemod.zombo": "Zombo",
+  "item.examplemod.zombo_egg": "Zombo Spawn Egg"
 }

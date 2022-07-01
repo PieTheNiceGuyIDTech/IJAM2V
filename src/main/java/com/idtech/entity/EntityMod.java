@@ -11,22 +11,22 @@ public class EntityMod {
 
     @SubscribeEvent
     public static void registerEntities(final RegistryEvent.Register<EntityType<?>> event){
-
+        event.getRegistry().register(ZomboEntity.TYPE);
     }
     @SubscribeEvent
     public static void registerEntityEggs(final RegistryEvent.Register<Item> event) {
-
+        event.getRegistry().register(ZomboEntity.EGG);
     }
     @SubscribeEvent
     public static void entityRenderers(final EntityRenderersEvent.RegisterRenderers event){
-
+        event.registerEntityRenderer(ZomboEntity.TYPE, ZomboRenderFactory.INSTANCE);
     }
 
     // this is different than in 1.16 but everything else is the same
     // I do think this makes more sense than the other way but alas change is usually hard.
     @SubscribeEvent
     public static void onAttributeCreate(EntityAttributeCreationEvent event) {
-
+        event.put(ZomboEntity.TYPE, ZomboEntity.createAttributes().build());
     }
 
 }
