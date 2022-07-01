@@ -34,6 +34,8 @@ public class BlockMod {
 
         event.getRegistry().register(CreeperSurpriseBlock.ITEM);
 
+        event.getRegistry().register(CreepingMoldBlock.ITEM);
+
     }
 
     @SubscribeEvent
@@ -46,6 +48,8 @@ public class BlockMod {
         event.getRegistry().register(RubberBlock.INSTANCE);
 
         event.getRegistry().register(CreeperSurpriseBlock.INSTANCE);
+
+        event.getRegistry().register(CreepingMoldBlock.INSTANCE);
 
     }
 }
