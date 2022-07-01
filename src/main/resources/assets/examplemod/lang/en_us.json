@@ -3,5 +3,6 @@
   "block.examplemod.castlewall": "Castle Wall",
   "item.examplemod.gelore": "Gel Ore",
   "item.examplemod.yummyfood": "Yummy Food",
-  "item.examplemod.america_ore": "America Ore"
+  "item.examplemod.america_ore": "America Ore",
+  "item.examplemod.teleportrod": "Teleport Rod"
 }

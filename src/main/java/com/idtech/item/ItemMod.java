@@ -31,6 +31,7 @@ public class ItemMod {
         event.getRegistry().register(GEL_ORE);
         event.getRegistry().register(AMERICA_ORE);
         // ITEMS
+        event.getRegistry().register(TeleportRodItem.INSTANCE);
 
         // TOOLS
 
