@@ -1,5 +1,8 @@
 package com.idtech.item;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -14,6 +17,8 @@ public class ItemMod {
     public static final Item GEL_ORE = ItemUtils.buildBasicItem("gelore", CreativeModeTab.TAB_MISC);
 
     //FOODS
+    public static FoodProperties yummyFood = (new FoodProperties.Builder().nutrition(5).saturationMod(1.4f).effect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 500, 1), 1.0f).alwaysEat().build());
+    public static Item yummyFoodItem = ItemUtils.buildFoodItem("yummyfood", yummyFood);
 
 
     @SubscribeEvent
@@ -27,6 +32,7 @@ public class ItemMod {
         // TOOLS
 
         // FOOD
+        event.getRegistry().register(yummyFoodItem);
 
         // ARMOR
 
