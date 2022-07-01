@@ -28,7 +28,7 @@ public class LightningHammerItem extends Item {
 
         if(location != null){
 
-            Utils.createExplosion(level, location, 0.5f);
+            Utils.createExplosion(level, location, 10.0f);
 
             Utils.strikeLightning(level, location);
 
