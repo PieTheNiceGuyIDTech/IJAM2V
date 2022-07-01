@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "examplemod:geloreblock"
+          "name": "examplemod:gelore"
         }
       ],
       "conditions": [
