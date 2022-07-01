@@ -30,8 +30,10 @@ public class ItemMod {
         event.getRegistry().register(STRUCTURE_GEL);
         event.getRegistry().register(GEL_ORE);
         event.getRegistry().register(AMERICA_ORE);
+
         // ITEMS
         event.getRegistry().register(TeleportRodItem.INSTANCE);
+        event.getRegistry().register(LightningHammerItem.INSTANCE);
 
         // TOOLS
 
