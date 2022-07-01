@@ -16,6 +16,8 @@ public class ItemMod {
     public static final Item STRUCTURE_GEL = ItemUtils.buildBasicItem("structuregel", CreativeModeTab.TAB_MISC);
     public static final Item GEL_ORE = ItemUtils.buildBasicItem("gelore", CreativeModeTab.TAB_MISC);
 
+    public static final Item AMERICA_ORE = ItemUtils.buildBasicItem("america_ore", CreativeModeTab.TAB_MATERIALS);
+
     //FOODS
     public static FoodProperties yummyFood = (new FoodProperties.Builder().nutrition(5).saturationMod(1.4f).effect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 500, 1), 1.0f).alwaysEat().build());
     public static Item yummyFoodItem = ItemUtils.buildFoodItem("yummyfood", yummyFood);
@@ -27,6 +29,7 @@ public class ItemMod {
         //BASIC ITEMS
         event.getRegistry().register(STRUCTURE_GEL);
         event.getRegistry().register(GEL_ORE);
+        event.getRegistry().register(AMERICA_ORE);
         // ITEMS
 
         // TOOLS
