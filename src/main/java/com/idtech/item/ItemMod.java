@@ -36,6 +36,7 @@ public class ItemMod {
         event.getRegistry().register(LightningHammerItem.INSTANCE);
 
         // TOOLS
+        event.getRegistry().register(GelPickaxeItem.INSTANCE);
 
         // FOOD
         event.getRegistry().register(yummyFoodItem);
