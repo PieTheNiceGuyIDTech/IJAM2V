@@ -18,12 +18,17 @@ public class BlockMod {
     public static final Block CASTLE_WALL = BlockUtils.createBasicBlock("castlewall", Material.STONE);
     public static final Item CASTLE_WALL_ITEM = BlockUtils.createBlockItem(CASTLE_WALL, CreativeModeTab.TAB_MISC);
 
+    public static final Block GEL_ORE_BLOCK = BlockUtils.createBasicBlock("geloreblock", Material.STONE, 0.5f);
+    public static final Item GEL_ORE_BLOCK_ITEM = BlockUtils.createBlockItem(GEL_ORE_BLOCK, CreativeModeTab.TAB_MISC);
+
+
 
     @SubscribeEvent
     public static void registerBlockItems(RegistryEvent.Register<Item> event) {
 
         event.getRegistry().register(CASTLE_WALL_ITEM);
 
+        event.getRegistry().register(GEL_ORE_BLOCK_ITEM);
 
 
     }
@@ -32,6 +37,8 @@ public class BlockMod {
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
 
         event.getRegistry().register(CASTLE_WALL);
+
+        event.getRegistry().register(GEL_ORE_BLOCK);
 
 
     }
