@@ -14,5 +14,9 @@
   "item.examplemod.customhelm": "Custom Helmet",
   "item.examplemod.customchest": "Custom Chestplate",
   "item.examplemod.customlegs": "Custom Leggings",
-  "item.examplemod.customboots": "Custom Boots"
+  "item.examplemod.customboots": "Custom Boots",
+  "item.examplemod.gelaxe": "Gel Axe",
+  "item.examplemod.gelsword": "Gel Sword",
+  "item.examplemod.gelhoe": "Gel Hoe",
+  "item.examplemod.gelshovel": "Gel Shovel"
 }

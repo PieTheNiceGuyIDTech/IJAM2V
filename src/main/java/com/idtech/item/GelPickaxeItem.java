@@ -11,7 +11,7 @@ import net.minecraftforge.common.ForgeTier;
 public class GelPickaxeItem extends PickaxeItem {
 
     public static Tier tier = new ForgeTier(4, 1561, 8.0F, 10.0F, 3, null, ()->{return Ingredient.of(ItemMod.STRUCTURE_GEL);});
-    private static Properties properties = new Item.Properties().tab(CreativeModeTab.TAB_MISC);
+    public static Properties properties = new Item.Properties().tab(CreativeModeTab.TAB_TOOLS);
     public static Item INSTANCE = new GelPickaxeItem(tier, 50, 100, properties).setRegistryName(BaseMod.MODID, "gelpickaxe");
 
 
