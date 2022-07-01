@@ -1,4 +1,5 @@
 {
   "item.examplemod.structuregel": "Structure Gel",
-  "block.examplemod.castlewall": "Castle Wall"
+  "block.examplemod.castlewall": "Castle Wall",
+  "item.examplemod.gelore": "Gel Ore"
 }

@@ -11,6 +11,7 @@ public class ItemMod {
 
     //BASIC ITEMS
     public static final Item STRUCTURE_GEL = ItemUtils.buildBasicItem("structuregel", CreativeModeTab.TAB_MISC);
+    public static final Item GEL_ORE = ItemUtils.buildBasicItem("gelore", CreativeModeTab.TAB_MISC);
 
     //FOODS
 
@@ -20,7 +21,7 @@ public class ItemMod {
 
         //BASIC ITEMS
         event.getRegistry().register(STRUCTURE_GEL);
-
+        event.getRegistry().register(GEL_ORE);
         // ITEMS
 
         // TOOLS
