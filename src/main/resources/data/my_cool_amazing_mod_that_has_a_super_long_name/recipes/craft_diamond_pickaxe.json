@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    " y ",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "my_cool_amazing_mod_that_has_a_super_long_name:structuregel"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_pickaxe",
+    "count": 1
+  }
+}
+

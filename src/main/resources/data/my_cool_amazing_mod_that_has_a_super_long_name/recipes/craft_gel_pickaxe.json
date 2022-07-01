@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    " y ",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "my_cool_amazing_mod_that_has_a_super_long_name:gelore"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "my_cool_amazing_mod_that_has_a_super_long_name:gelpickaxe",
+    "count": 1
+  }
+}
+
